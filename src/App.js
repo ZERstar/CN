@@ -39,7 +39,7 @@ function App() {
           : ""
       }`
       // https://geo.ipify.org/api/v2/country,city?apiKey=${API_KEY}&ipAddress=8.8.8.8&domain=google.com
-      //
+      //api for mapping IPs on the map
     )
     const data = await res.json()
     setAddress(data)
